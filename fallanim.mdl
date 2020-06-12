@@ -1,0 +1,19 @@
+frames 100
+basename falling2
+constants purple 0.3 0.2 0.8 0.3 0 0 0.3 0.2 0.8
+push
+vary fall0 0 60 0 1
+vary fall1 25 75 0 1
+vary fall2 70 99 0 1
+move 0 -700 0 fall0
+sphere purple 100 600 0 50
+pop
+push
+move 0 -600 0 fall1
+sphere purple 300 550 0 25
+pop
+push
+move 0 -800 0 fall2
+sphere purple 200 650 0 75
+sphere purple 400 600 0 50
+
